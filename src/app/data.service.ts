@@ -12,6 +12,6 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getComics() {
-    return this.http.get("https://localhost:44393/api/Default");
+    return this.http.get("https://localhost:5001/api/Default");
   }
 }
